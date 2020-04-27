@@ -5,7 +5,7 @@ import CommentList from '../CommentList/CommentList';
 import User from '../User/User';
 
 const Post = ({ post }) => (
-  <div className="Post">
+  <li className="PostList__item">
     <h2>
       {post.title}
     </h2>
@@ -17,7 +17,7 @@ const Post = ({ post }) => (
     <User {...post.user} />
 
     <CommentList comments={post.comments} />
-  </div>
+  </li>
 );
 
 export default Post;
