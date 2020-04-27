@@ -1,2 +1,2 @@
 li,p,ul{padding:0;margin:0}.App{background-color:#a9a9a9;text-align:center}.PostList{display:grid;grid-template-columns:repeat(2,1fr);grid-gap:20px;list-style-type:none}.PostList__item{background-color:#9370db}.CommentList{display:grid;grid-gap:10px;list-style-type:none}.CommentList__name{font-size:150%}.CommentList__item{display:flex;flex-direction:column;justify-content:center;background-color:orange}.User{margin-top:15px;display:flex;justify-content:space-around}
-/*# sourceMappingURL=main.895cf803.chunk.css.map */
+/*# sourceMappingURL=main.13c2d87e.chunk.css.map */
