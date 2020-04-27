@@ -6,13 +6,12 @@ import Comment from '../Comment/Comment';
 const CommentList = ({ comments }) => (
   <ul className="CommentList">
     {comments.map(comment => (
-      <li className="CommentList__item" key={comment.id}>
-        <Comment
-          name={comment.name}
-          body={comment.body}
-          email={comment.email}
-        />
-      </li>
+      <Comment
+        key={comment.id}
+        name={comment.name}
+        body={comment.body}
+        email={comment.email}
+      />
     ))}
   </ul>
 );

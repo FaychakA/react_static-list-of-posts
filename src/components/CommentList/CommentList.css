@@ -4,13 +4,6 @@
   list-style-type: none;
 }
 
-.CommentList__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: orange;
-}
-
 .CommentList__name {
   font-size: 150%;
 }
